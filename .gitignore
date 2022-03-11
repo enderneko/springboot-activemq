@@ -1,0 +1,5 @@
+# Project exclude paths
+/consumer-demo/target/
+/producer-demo/target/
+/topic-consumer-demo/target/
+/topic-producer-demo/target/
