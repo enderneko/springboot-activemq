@@ -1,0 +1,15 @@
+server:
+  port: 12578
+
+spring:
+  activemq:
+    broker-url: tcp://192.168.203.200:61616
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: true # 使用 topic
+    template:
+      delivery-mode: persistent
+
+# 预设置 topic 名称
+mytopic: acitvemq-boot-topic

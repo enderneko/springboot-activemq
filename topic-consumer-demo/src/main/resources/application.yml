@@ -1,0 +1,14 @@
+server:
+  port: 18888
+
+spring:
+  activemq:
+    broker-url: nio://192.168.203.200:61616
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: true # 使用 topic
+
+# 预设置 topic 名称
+mytopic: acitvemq-boot-topic
+myid: 18888
